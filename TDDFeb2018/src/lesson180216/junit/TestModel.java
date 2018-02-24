@@ -1,18 +1,17 @@
 package lesson180216.junit;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
+import static lesson180216.TestFramework.assertEquals;
 
 import lesson180216.Model;
+import org.junit.jupiter.api.Test;
 
 public class TestModel {
 
-	@Test
-	public void test() {
-		Model model = new Model();
-		model.change();
-		assertEquals(model.state, 1);
-	}
+    @Test
+    public void test() {
+        Model model = new Model();
+        model.change();
+        assertEquals(model.state, 1);
+    }
 
 }

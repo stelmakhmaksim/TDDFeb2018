@@ -2,7 +2,7 @@ package lesson180216;
 
 public class Model {
 	
-	int state;
+	public int state;
 	
 	public void change() {
 		state++;

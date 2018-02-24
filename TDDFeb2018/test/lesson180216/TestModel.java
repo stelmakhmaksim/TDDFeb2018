@@ -1,11 +1,9 @@
 package lesson180216;
 
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
-
-import lesson180216.Model;
+import org.junit.jupiter.api.Test;
 
 public class TestModel {
 
